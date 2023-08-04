@@ -1,0 +1,317 @@
+
+.navbar{
+    position: fixed;
+    z-index: 3;
+    width: 100%;
+}
+.container-fluid{
+    padding: 0 60px;
+    
+}
+.nav{
+    padding-right:  30px;
+}
+.nav-item{
+    padding: 0 5px;
+    padding-top: 7px;
+}
+.head{
+    text-align: center;
+    width: 100%;
+    padding-top: 70px;
+    background-color: lightskyblue;
+    padding-bottom: 10px;
+}
+
+
+.title{
+    text-align: center;
+    padding: 15px 0;
+}
+
+.cards{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.mini-card{
+    
+    box-shadow:  0 4px 8px 0 black;
+    width: 30%;
+    justify-content: space-around;
+}
+
+.mini-card .image{
+
+    width: 100%;
+}
+
+.mini-card img{
+    width: 100%;
+    height: 40vh;
+}
+
+.mini-card h5{
+    padding-top: 10px;
+    padding-left: 10px;
+}
+.mini-card span p{
+    padding-left: 10px;
+}
+
+.mini-card p{
+    padding-left: 10px;
+}
+
+.link{
+    padding-left: 10px;
+
+}
+.link a{
+    color: black;
+}
+
+.mini-card button{
+    width: 95%;
+    margin: 10px;
+    background-color: black;
+    color: white;
+  
+}
+
+
+
+
+.rate-percent{
+    padding-left: 55px;
+}
+
+.progress-green{
+    margin: 0 40px;
+    width: 7.5rem;
+    height: 7.5rem;
+    border: 2px solid green;
+    border-radius: 50%;
+    transform: rotate(135deg);
+}
+
+
+
+.progress-left{
+    width: 90px;
+    height: 90px;
+    border: 1px solid gray;
+    border-radius: 50%;
+    margin: 0 auto;
+    position: relative;
+    top: 0.75rem;
+    z-index: 1;
+    transform: rotate(-135deg);
+}
+
+.progress-value{
+    position: relative;
+    top: 1.4rem;
+    left: 1rem;
+    font-size: 30px;
+    color: green;
+}
+
+.Progress-right{
+    width: 40%;
+    height: 20%;
+    background: white;
+}
+
+
+
+.content{
+    padding-left: 45px;
+}
+
+
+
+
+.progress-blue{
+    margin: 0 40px;
+    width: 7.5rem;
+    height: 7.5rem;
+    border: 2px solid blue;
+    border-radius: 50%;
+    transform: rotate(112deg);
+}
+
+.progress-left-blue{
+    width: 90px;
+    height: 90px;
+    border: 1px solid gray;
+    border-radius: 50%;
+    margin: 0 auto;
+    position: relative;
+    top: 0.75rem;
+    z-index: 1;
+    transform: rotate(-112deg);
+}
+.progress-value-blue{
+    position: relative;
+    top: 1.4rem;
+    left: 1rem;
+    font-size: 30px;
+    color: blue;
+}
+.progress-rigth-blue{
+    width: 40%;
+    height: 35%;
+    background: white;
+}
+
+
+
+
+.progress-orange{
+    margin: 0 40px;
+    width: 7.5rem;
+    height: 7.5rem;
+    border: 2px solid orange;
+    border-radius: 50%;
+    transform: rotate(97deg);
+}
+
+.progress-left-orange{
+    width: 90px;
+    height: 90px;
+    border: 1px solid gray;
+    border-radius: 50%;
+    margin: 0 auto;
+    position: relative;
+    top: 0.75rem;
+    z-index: 1;
+    transform: rotate(-97deg);
+}
+.progress-value-orange{
+    position: relative;
+    top: 1.4rem;
+    left: 1rem;
+    font-size: 30px;
+    color: orange;
+}
+.progress-rigth-orange{
+    width: 60%;
+    height: 45%;
+    background: white;
+}
+
+
+
+
+
+footer{
+    background-color: rgb(145, 222, 248);
+    margin-top: 10px;
+    bottom: 0;
+    width: 100%;
+    
+}
+
+.line{
+    display: flex;
+    padding: 1rem;
+    
+}
+.first{
+    width: calc(100% / 3);
+    padding: 0 0.9rem;
+
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.line .first p{
+    line-height: 1.5rem;
+}
+
+ul li{
+    margin-bottom: 0.4rem;
+}
+ul li i{
+    color: rgb(62, 154, 252);
+}
+.first .second{
+    display: flex;
+    column-gap: 0.6rem;
+}
+a{
+    text-decoration: none;
+}
+
+.second li a{
+    background-color: rgb(40, 196, 244);
+    place-content: center;
+    border-radius: 100%;
+    width: 2.5rem;
+    height: 2.5rem;
+    display: grid;
+}
+.second li i{
+    color: white;
+}
+.first ul li a:hover{
+    color: rgb(62, 154, 252);
+}
+.second li a:hover {
+    background-color: aqua;
+}
+.fourth {
+    background-color: rgb(40, 196, 244);
+    padding: 1px 0;
+    text-align: center;
+    margin-bottom: 10px;
+    color: white;
+}
+@media screen and (max-width: 786px){
+    .first{
+        width: 100%;
+        margin: 0.4rem 0;
+    }
+    .line{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .cards{
+        display: block;
+        
+    }
+    .mini-card{
+        width: 70%;
+        margin: 0 auto;
+        margin-bottom: 30px;
+    }
+    .head-content{
+        width: 70%;
+        margin:0 auto;
+    }
+
+    .rate-percent{
+        padding-left:0;
+    }
+    
+   .rate-3{
+    margin-left: 90px;
+    align-items: center;
+    margin-bottom: 20px;
+   }
+   .rate-2{
+    margin-left: 90px;
+    align-items: center;
+    margin-bottom: 20px;
+   }
+   .rate-1{
+    margin-left: 90px;
+    align-items: center;
+    margin-bottom: 20px;
+   }
+}
